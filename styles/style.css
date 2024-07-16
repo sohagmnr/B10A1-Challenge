@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Azeret Mono", monospace, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.dwn-resume{
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    text-decoration: none;
+    opacity: .8;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 17px 24px 17px 24px;
+    margin: 35px 0;
+}
+.hero{
+    background-image: url('/assets/hero-bg.png');
+    text-align: center;
+    top: 131px;
+    padding-top: 26px;
+    padding-bottom: 44px;
+    
+
+}
+.section-content{
+    max-width: 998px;
+    margin: 0 auto;
+}
+.section-png{
+    /* margin-top: 26px; */
+    margin-bottom: 32px;
+}
+.section-title{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.section-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px auto 0;
+    opacity: 0.7;
+    max-width: 852px;
+
+}
+
+.btn-contact{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 21px 24px 21px 24px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+
+/* section two */
+
+.section-two{
+    max-width: 1140px;
+    padding: 80px 97px 80px 97px;
+    margin: 74px auto 88px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.section-top{
+    margin: 0 auto 48px;
+    text-align: center;
+    max-width: 852px;
+}
+.title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.details{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+/* card */
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 48px;
+}
+.card-details{
+    max-width: 477px;
+    margin: 10px 0;
+}
+
+.card-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.card-para{
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.btn-more{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 32px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 12px 20px 12px 20px;
+    cursor: pointer;
+}
+
+/* section three */
+
+.section-three{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.web-link{
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    
+}
+.video{
+    border-radius: 16px;
+}
+
+/* section four */
+
+.section-four{
+    max-width: 1140px;
+    margin: 149px auto 111px;
+}
+
+.skill-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.html{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    width: 364px;
+}
+.css{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+    width: 364px;
+}
+.javascript{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+    width: 364px;
+}
+
+.name{
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.skill-details{
+    margin-bottom: 24px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.skill-link{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+
+/* section six */
+
+.section-six{
+    max-width: 1140px;
+    background-image: url("/assets/handshake.jpg");
+    padding: 48px 64px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+}
+.feedback{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    width: 548px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+}
+.sub-btn{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px 17px 20px;
+    border: none;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    cursor: pointer;
+}
+
+.section-six .section-top .title{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.section-six .section-top .details{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: .7;
+}
+.feed{
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 79px;
+}
+
+.social-links{
+    margin: 32px;
+}
+.footer-title{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.social-links a img{
+    margin-right: 5px;
+}
